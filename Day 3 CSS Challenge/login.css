@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.login{
+    margin-left: 600px;
+    /* margin-top: 200px; */
+    color: white;
+}
+    .main{
+    background-color:rgb(42, 31, 37);
+    padding: 100px;
+    height: 800px; 
+     
+}
+.form{
+    background-color:rgb(232, 160, 197);
+    border: solid 2px rgb(74, 121, 229);
+    border-radius: 5px;
+    padding: 50px;
+    margin-top: 20px;
+    padding: 40px;
+    margin-left: 450px;
+    height: 300px;
+    width: 400px;
+}
+.input{
+    width: 150px;
+    margin-top: -130px;
+    /* background-color: red; */
+    margin-left: 140px;
+}
+.done{
+    margin-left: 120px;
+    margin-top: 20px;
+    /* background-color: green; */
+    border-radius: 5px;
+    width: 340px;
+}
+.submit{
+    background-color: green;
+    color: white;
+    width: 50px;
+}
+.reset{
+    background-color: red;
+    color: white;
+    width: 50px;
+}
