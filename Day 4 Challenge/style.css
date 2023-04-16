@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    background-color: rgb(242, 242, 55);
+    padding: 40px;
+    margin: 20px;
+    margin-top: 200px;
+    border: solid 5px red;
+    border-radius: 10px;
+}
+.heading{
+margin-left: 650px;
+/* float: bottom; */
+
+}
+.info{
+   margin-left: 730px; 
+   margin-top: 20px;
+}
+.btn{
+    margin-left: 690px;
+    margin-top: 30px;
+}
+.details{
+    margin-left: 490px;
+    margin-top: 30px;
+}
+#increment-btn{
+    background-color:brown;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+#save-btn{
+    background-color:rgb(31, 223, 31);
+    margin-left: 20px;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.challenge{
+    background-color: rgb(233, 74, 169);
+    height: 100vh;
+    padding: 150px;
+    
+}
