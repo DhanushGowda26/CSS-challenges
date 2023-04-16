@@ -1,2 +1,2 @@
-# CSS Challenges
-Take these Challenges to master CSS from scratch 
+# Web Dev Challenges
+Take these Challenges to master Web Dev from scratch 
