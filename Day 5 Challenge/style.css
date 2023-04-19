@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    background-color: rgb(236, 107, 15);
+    padding: 200px;
+    height: 100vh;
+}
+.calculator{
+    padding:150px;
+    display: flex;
+    justify-content: space-between;
+    border: 10px solid red;
+    border-radius: 60px;
+}
+input{
+    background-color: rgb(240, 216, 35);
+    color: rgb(19, 19, 2);
+    font-weight: bolder;
+    
+    padding: 5px;
+}
+button{
+    background-color: rgb(74, 239, 37);
+}
+h1{
+    color: white;
+}
+#answer{
+    color: rgb(6, 3, 3);
+    display: flex;
+    justify-content: center;
+}
