@@ -5,10 +5,9 @@
 }
 .login{
     margin-left: 600px;
-    /* margin-top: 200px; */
     color: white;
 }
-    .main{
+.main{
     background-color:rgb(42, 31, 37);
     padding: 100px;
     height: 800px; 
@@ -22,22 +21,13 @@
     margin-top: 20px;
     padding: 40px;
     margin-left: 450px;
-    height: 300px;
+    height: 350px;
     width: 400px;
 }
-.input{
-    width: 150px;
-    margin-top: -130px;
-    /* background-color: red; */
-    margin-left: 140px;
+.data{
+    float: right;
 }
-.done{
-    margin-left: 120px;
-    margin-top: 20px;
-    /* background-color: green; */
-    border-radius: 5px;
-    width: 340px;
-}
+
 .submit{
     background-color: green;
     color: white;
@@ -47,4 +37,10 @@
     background-color: red;
     color: white;
     width: 50px;
+}
+center{
+    margin-top: 40px;
+}
+marquee{
+    color: red;
 }
