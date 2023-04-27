@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+}
+nav{
+  background-color: rgb(228, 166, 199);
+  height: 65px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.parent{
+    height: 90%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bolder;    
+    /* background-color: aqua; */
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: yellow
+}
+.main1{
+    background-color: black;
+    height: 400px;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.main2{
+    background-color: rgb(225, 192, 192);
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.box1,.box2,.box3,.box4,.box5,.box6,.box7,.box8{
+    height: 90%;
+    width: 20%;
+    background-color: coral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box2{
+    background-color: rgb(201, 177, 241);
+}
+.box3{
+    background-color: rgb(220, 54, 112);}
+.box4{
+    background-color: rgb(55, 195, 33);
+}
+.box5{
+    background-color: rgb(201, 177, 241);
+}
+.box6{
+    background-color: rgb(55, 195, 33);
+}
+.box7{
+    background-color: rgb(134, 133, 226);
+}
+.box8{
+    background-color: rgb(51, 225, 167);
+}
