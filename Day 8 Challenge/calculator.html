@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>calci</title>
+</head>
+<body>
+    <main>
+        <section class="main">
+            <form class="display">
+                    <input class="output"  name="output" >
+                <section class="inputs">
+                    <div class="row1">
+                        <input type="button" class="bgc" id="one" value="1" onclick="output.value+='1'">
+                        <input type="button" class="bgc" id="two" value="2" onclick="output.value+='2'">
+                        <input type="button" class="bgc" id="three" value="3" onclick="output.value+='3'">
+                        <input type="button" class="bgc" id="add" value="+" onclick="output.value+='+'">
+                    </div>
+                    <div class="row2">
+                        <input type="button" class="bgc" id="four" value="4" onclick="output.value+='4'">
+                        <input type="button" class="bgc" id="five" value="5" onclick="output.value+='5'">
+                        <input type="button" class="bgc" id="six" value="6" onclick="output.value+='6'">
+                        <input type="button" class="bgc" id="sub" value="-" onclick="output.value+='-'">
+                    </div>
+                    <div class="row3">
+                        <input type="button" class="bgc" id="seven" value="7" onclick="output.value+='7'">
+                        <input type="button" class="bgc" id="eight" value="8" onclick="output.value+='8'">
+                        <input type="button" class="bgc" id="nine" value="9" onclick="output.value+='9'">
+                        <input type="button" class="bgc" id="multiply" value="*" onclick="output.value+='*'">
+                    </div>
+                    <div class="row4">
+                        <input type="button" class="bgc" id="one" value="=" onclick="output.value=eval(output.value)">
+                        <input type="button" class="bgc" id="zero" value="0" onclick="output.value+='0'">
+                        <input type="button" class="bgc" id="cancle" value="C" onclick="output.value=''">
+                        <input type="button" class="bgc" id="divide" value="/" onclick="output.value+='/'">
+                    </div>
+                </section>
+            </form>
+        </section>
+    </main>
+
+</body>
+</html>
