@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="in">
+        <input type="text" name="firstnumber" id="one" placeholder="Enter 1st number">
+        <input type="text" name="secondnumber" id="two" placeholder="Enter 2nd number">
+        <button class="in1" onclick="add()">ADD</button>
+        <button class="in2" onclick="subtract()">SUBTRACT</button>
+        <button class="in3" onclick="multiply()">MULTIPLY</button>
+        <button class="in4" onclick="divide()">DIVIDE</button>
+       <h1 class="result" id="out"></h1>
+    </div>
+<script>
+    let Displayone=document.getElementById("one");
+    let Displaytwo=document.getElementById("two");
+    let Answerresult=document.getElementById("out");
+    function add(){
+        let a = Displayone.value;
+        let b = Displaytwo.value;   
+        let result=parseFloat(a)+parseFloat(b);
+        Answerresult.textContent = result;;
+    }
+    function subtract(){
+        let a = Displayone.value;
+        let b = Displaytwo.value;
+        let result=parseFloat(a)-parseFloat(b);
+        Answerresult.textContent = result;
+    }
+    function multiply(){
+        let a = Displayone.value;
+        let b = Displaytwo.value;
+        let result=parseFloat(a)*parseFloat(b);
+        Answerresult.textContent = result;
+    }
+    function divide(){
+        let a = Displayone.value;
+        let b = Displaytwo.value;
+        let result=parseFloat(a)/parseFloat(b);
+        Answerresult.textContent = result;
+    }
+    
+</script>
+</body>

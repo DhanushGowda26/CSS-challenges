@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function print(){
+            document.write("<h1>Hello World</h1>");
+            console.log("Hello World");
+        }
+    print();
+    let input1=100;
+    let input2=20;
+        function add(a,b){
+            sum = a+b;
+            console.log("addition of "+ input1 +" and "+input2 +": " +sum);
+            document.write("Addition of "+ input1 +" and "+input2 +": "+ sum+ "<br>");    
+        }
+        add(input1,input2)
+        function sub(a,b){
+            subtract = a-b;
+            console.log("subtraction of "+ input1 +" and "+input2 +": " +subtract);
+            document.write("Subtraction of "+ input1 +" and "+input2 +": " +subtract+ "<br>");    
+        }
+        sub(input1,input2)
+        function mux(a,b){
+            multiply = a*b;
+            console.log("Multiplication of "+ input1 +" and "+input2 +": " +multiply);
+            document.write("Multiplication of "+ input1 +" and "+input2 +": " +multiply+ "<br>");    
+        }
+        mux(input1,input2)
+        function div(a,b){
+            divide = a/b;
+            console.log("Division of "+ input1 +" and "+input2 +": " +divide);
+            document.write("Division of "+ input1 +" and "+input2 +": " +divide+ "<br>");    
+        }
+        div(input1,input2)
+    </script>
+</body>
+</html>

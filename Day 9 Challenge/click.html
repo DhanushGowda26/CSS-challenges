@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="x" onclick="change()"> click here to see the change</h1>
+    <button onclick="colour()"> click here to see the change in color</button>
+    <button onclick="bg()"> click here to see the change in background-color</button>
+    <button onclick="ht()"> click here to see the change in height</button>
+    <button onclick="wd()"> click here to see the change in width </button>
+    <button onclick="fz()"> click here to see the change in font-size</button>
+    <button onclick="ff()">Click here to chane font family</button>
+    <script>
+        dom=document.getElementById("x");   
+        // document.write(dom);    
+        // console.log(dom);
+        function change(){
+            dom.innerHTML="changed";
+            x.style.color="red";
+            x.style.backgroundColor="black";
+            x.style.fontSize="90px";
+            x.style.border="7px solid blue";
+            x.style.fontFamily="sans-serif";
+        }
+        function colour(){
+            x.style.color="green";
+        }
+        function wd(){
+            x.style.width="600px";
+        }
+        function ht(){
+            x.style.height="200px";
+        }
+        function bg(){
+            x.style.background="yellow";
+        }
+        function fz(){
+            x.style.fontSize="40px";
+        }
+        function ff(){
+            x.style.fontFamily="cursive";
+        }
+    </script>
+</body>
+</html>
