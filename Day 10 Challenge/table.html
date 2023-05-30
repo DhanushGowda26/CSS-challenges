@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="searchbar">
+        <input class="search" id="find" type="text" onkeyup="searchTable()" placeholder="Search" value="">
+    </div>
+<div class="searchtable">
+    <table>
+        <tr>
+            <th>NAME</th>
+            <th>Degree</th>
+            <th>Profession</th>
+        </tr>
+        <tr>
+            <td>Sharath</td>
+            <td>B.E</td>
+            <td>Teacher</td>
+        </tr>
+        <tr>
+            <td>SHaravan</td>
+            <td>10th</td>
+            <td>cricketer</td>
+        </tr>
+        <tr>
+            <td>Dhanush</td>
+            <td>puc</td>
+            <td>actor</td>
+        </tr>
+        <tr>
+            <td>vikas</td>
+            <td>Bca</td>
+            <td>C.A</td>
+        </tr>
+        <tr>
+            <td>jeevan</td>
+            <td>puc</td>
+            <td>Teacher</td>
+        </tr>
+        <tr>
+            <td>harsha</td>
+            <td>B.E</td>
+            <td>Make up artist</td>
+        </tr>
+        <tr>
+            <td>Darshan</td>
+            <td>Diploma</td>
+            <td>lawyer</td>
+        </tr>
+        <tr>
+            <td>Gowtham</td>
+            <td>B.E</td>
+            <td>electrician</td>
+        </tr>
+        <tr>
+            <td>Vishal</td>
+            <td>MBA</td>
+            <td>Business</td>
+        </tr>
+        <tr>
+            <td>vivek</td>
+            <td>B.E</td>
+            <td>automobile engineer</td>
+        </tr>
+        <tr>
+            <td>kumar</td>
+            <td>bba</td>
+            <td>assistant</td>
+        </tr>
+        <tr>
+            <td>promad</td>
+            <td>5th</td>
+            <td>MLA</td>
+        </tr>
+        <tr>
+            <td>surya</td>
+            <td>B.E</td>
+            <td>M.P</td>
+        </tr>
+        <tr>
+            <td>Gandhi</td>
+            <td>puc</td>
+            <td>Prime Minister</td>
+        </tr>
+        <tr>
+            <td>vijay</td>
+            <td>B.E</td>
+            <td>Data science</td>
+        </tr>
+        <tr>
+            <td>vinay</td>
+            <td>B.E</td>
+            <td>WEB DEV</td>
+        </tr>
+    </table>
+</div>
+<script>
+    function searchTable() {
+        var input, filter, table, tr, td, i, txtValue;
+        input = document.getElementById("find");
+        filter = input.value.toUpperCase();
+        table = document.querySelector("table");
+        tr = table.getElementsByTagName("tr");
+
+        for (i = 0; i < tr.length; i++) {
+            td = tr[i].getElementsByTagName("td")[0];
+            if (td) {
+                txtValue = td.textContent || td.innerText;
+                if (txtValue.toUpperCase().startsWith(filter)) {
+                    tr[i].style.display = "";
+                } else {
+                    tr[i].style.display = "none";
+                }
+            }
+        }
+    }
+</script>
+</body>
+</html>
