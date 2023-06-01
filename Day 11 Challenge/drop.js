@@ -80,7 +80,7 @@ for (var i = 0; i < b.length; i++) {
 }
 // Add an onclick event listener to each anchor tag
 for (var i = 0; i < b.length; i++) {
-    anchors[i].addEventListener("click", function() {
+    b[i].addEventListener("click", function() {
         // Get the text of the anchor tag
         var text = this.textContent;
         // Set the value of the input field to the text of the anchor tag
