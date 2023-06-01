@@ -22,24 +22,6 @@ function dis() {
       }
     }
   }
-function suggest(input) {
-    // Get the input value and convert it to uppercase.
-    var filter = input.toUpperCase();
-    // Iterate over all the links in the dropdown content div.
-    for (var i = 0; i < b.length; i++) {
-      // Get the text content of each link.
-      var data = b[i].innerText || b[i].textContent;
-      // Check if the text content of the link starts with the filter value.
-      if (data.toUpperCase().startsWith(filter)) {
-        // If it does, show the link and set the overflow of the dropdown content div to auto.
-        b[i].style.display = "block";
-        a.style.overflow = "auto";
-      } else {
-        // If it doesn't, hide the link.
-        b[i].style.display = "none";
-      }
-    }
-  }
   function arrangeAlphabetically() {
     // Get all the links in the dropdown content div.
     var links = Array.from(b);
@@ -71,15 +53,6 @@ function suggest(input) {
 // For each anchor tag
 for (var i = 0; i < b.length; i++) {
     // Add an onclick event listener,on clicking the anchor tag the value of the input field changes
-    b[i].addEventListener("click", function() {
-        // Get the text of the anchor tag
-        var text = this.textContent;
-        // Set the value of the input field to the text of the anchor tag
-        document.getElementById("in").value = text;
-    });
-}
-// Add an onclick event listener to each anchor tag
-for (var i = 0; i < b.length; i++) {
     b[i].addEventListener("click", function() {
         // Get the text of the anchor tag
         var text = this.textContent;
